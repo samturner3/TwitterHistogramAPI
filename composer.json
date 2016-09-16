@@ -1,0 +1,6 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "abraham/twitteroauth": "^0.6.4"
+    }
+}
