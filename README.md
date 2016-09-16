@@ -11,10 +11,18 @@ This project returns an hourly histogram of tweets for a given user for the last
 
 #####Modes
 
-There are two modes for the program, JSON and GUI mode. 
+There are two modes for the main program, JSON and GUI mode. 
 The JSON mode returns a JSON object for use in API, and the GUI mode returns the object in text to the brower, along with extra features such as username title, user photo and last tweet. 
 
 #####Usage
+
+######Part 1
+A web application with a single HTTP endpoint that simply returns the text "​ Try /hello/:name"​. That is, if you point a web browser or curl to your application, example (htttp://127.0.0.1:9000), you will see the text "​ Try /hello/:name" ​.
+
+
+######Part 2
+Another endpoint /hello/<name> that returns the text Hello <name>. For example, visiting http://127.0.0.1:9000/hello/BarackObama  displays the text ​"Hello BarackObama" ​.
+
 
 ######JSON Mode
 Once setup, navigate curl to your server address and port.
