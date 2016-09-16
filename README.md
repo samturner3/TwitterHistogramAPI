@@ -92,4 +92,17 @@ Use phpUNIT (https://phpunit.de/) and guzzle to test for:
 •	Valid JSON object returned.
 •	Use a separate API program to cross reference the accuracy of the histogram. 
 
-![alt tag](Screenshots/Screen Shot 2016-09-16 at 1.22.48 PM.png)
+![alt tag](Screenshots/ScreenShot1.jpg)
+JSON Output in curl
+
+![alt tag](Screenshots/ScreenShot2.jpg)
+GUI Mode
+
+![alt tag](Screenshots/ScreenShot3.jpg)
+GUI Mode
+
+![alt tag](Screenshots/ScreenShot4.jpg)
+GUI Error
+
+![alt tag](Screenshots/ScreenShot5.jpg)
+GUI Error
