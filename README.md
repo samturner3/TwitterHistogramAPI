@@ -98,7 +98,7 @@ I did not have time to code test cases, however if I did this would be my proces
 Use phpUNIT (https://phpunit.de/) and guzzle to test for:
 •	JSON header returned in JSON mode.
 •	Valid JSON object returned.
-•	Use a separate API program to cross reference the accuracy of the histogram. 
+•	Use a separate API program to cross reference the accuracy of the histogram, fed with a list of most active / popular twitter users.
 
 ##Screen Shots
 
