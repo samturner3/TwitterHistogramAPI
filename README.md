@@ -91,3 +91,5 @@ Use phpUNIT (https://phpunit.de/) and guzzle to test for:
 •	JSON header returned in JSON mode.
 •	Valid JSON object returned.
 •	Use a separate API program to cross reference the accuracy of the histogram. 
+
+![alt tag](Screenshots/Screen Shot 2016-09-16 at 1.22.48 PM.png)
