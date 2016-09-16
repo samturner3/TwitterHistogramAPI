@@ -92,6 +92,8 @@ Use phpUNIT (https://phpunit.de/) and guzzle to test for:
 •	Valid JSON object returned.
 •	Use a separate API program to cross reference the accuracy of the histogram. 
 
+##Screen Shots
+
 ![alt tag](Screenshots/ScreenShot1.jpg)
 JSON Output in curl
 
