@@ -7,11 +7,11 @@ use Abraham\TwitterOAuth\TwitterOAuth;
 class Secrets
 
 {
-    public $CONSUMER_KEY = "6iaIOHLvnnw2bIggAFaarMir6";
-    public $CONSUMER_SECRET = 'AcxfSCiJ1Zyw6O7YYBqoNjMqsQKsqSoKKxZmEjqBtVQcsKIMhp';
+    public $CONSUMER_KEY = "6iaIOHLvnnwaarMir6";
+    public $CONSUMER_SECRET = 'AcxfSCsqSoKKxZmEjqBtVQcsKIMhp';
 
-    public $access_token = '4622316804-7iqa0h0UMbAFFlBHZAh7NmFsGnk0q7WD8cRpyPA';
-	public $access_token_secret = '6FIwVSmPXiarzexPJVMnyISiFJL0B0WnoJgNiJHKjraDo';
+    public $access_token = '4622316804-7iFlBHZAh7NmFsGnk0q7WD8cRpyPA';
+	public $access_token_secret = '6FIwVSmVMnyISiFJL0B0WnoJgNiJHKjraDo';
    
 }
 
