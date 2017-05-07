@@ -3,28 +3,28 @@ Project for BigCommerce
 
 # README
 
-###Twitter Hourly Histogram API
+### Twitter Hourly Histogram API
 
-#####Description
+##### Description
 
 This project returns an hourly histogram of tweets for a given user for the last 24 hours. 
 
-#####Modes
+##### Modes
 
 There are two modes for the main program, JSON and GUI mode. 
 The JSON mode returns a JSON object for use in API, and the GUI mode returns the object in text to the brower, along with extra features such as username title, user photo and last tweet. 
 
-#####Usage
+##### Usage
 
-######Part 1
+###### Part 1
 A web application with a single HTTP endpoint that simply returns the text "​ Try /hello/:name"​. That is, if you point a web browser or curl to your application, example (htttp://127.0.0.1:9000), you will see the text "​ Try /hello/:name" ​.
 
 
-######Part 2
+###### Part 2
 Another endpoint /hello/<name> that returns the text Hello <name>. For example, visiting http://127.0.0.1:9000/hello/BarackObama  displays the text ​"Hello BarackObama" ​.
 
 
-######JSON Mode
+###### JSON Mode
 Once setup, navigate curl to your server address and port.
  http://(localhost / 127.0.0.1 :<port>)/histogram/<username>
 
@@ -36,7 +36,7 @@ A JSON object will be returned:
 
 Each key represents the hour of day of that past 24 hours. The value represents how many tweets in that hour.
 
-######GUI mode
+###### GUI mode
 
 Much like the JSON mode, the gui mode outputs the histogram, along with extra data like username, user picture and last tweet to a browser.
 
@@ -50,7 +50,7 @@ http://127.0.0.1:9000/histogram/gui/9newsAUS
 
 
 
-#####Error handling.
+##### Error handling.
 
 If the twitter API generates an error, the message is formatted to JSON:
 
@@ -62,7 +62,7 @@ A similar error is displayed on the GUI mode.
 The case where an account exists but there are no tweets, this throws a PHP error.
 I did not have time to handle this error, but is a simple future improvement.
 
-#####Installation/dependencies.
+##### Installation/dependencies.
 
 The program uses two dependencies packages.
 
@@ -78,7 +78,7 @@ These were both installed using composer, and this is how the files are setup.
 
 In the repo is the composer.json file, which will fetch the required dependencies. 
 
-#####Files / Server.
+##### Files / Server.
 
 Once the dependencies have been installed with composer, mount the files on your php server with the folder ‘web’ as the document root.
 
@@ -91,7 +91,7 @@ This should load index.php
 
 The classes are contained inside getTweets.php
 
-#####Testing.
+##### Testing.
 
 I did not have time to code test cases, however if I did this would be my process:
 
@@ -100,7 +100,7 @@ Use phpUNIT (https://phpunit.de/) and guzzle to test for:
 •	Valid JSON object returned.
 •	Use a separate API program to cross reference the accuracy of the histogram, fed with a list of most active / popular twitter users.
 
-##Screen Shots
+## Screen Shots
 
 ![alt tag](Screenshots/ScreenShot1.jpg)
 JSON Output in curl
